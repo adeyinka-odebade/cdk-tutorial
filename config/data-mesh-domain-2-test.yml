@@ -1,0 +1,14 @@
+account:
+  id: 533267147140
+  name: data-mesh-domain-2-test
+  region: eu-west-1
+tools_deployed:
+  name: user_tracker_system
+  parameters:
+#    codestar_conn_arn: arn:aws:codestar-connections:eu-west-1:533267147140:connection/a8d0cc55-6760-4828-8eec-31249a6d8fd4
+    codestar_conn_arn: arn:aws:codestar-connections:eu-west-1:533267147140:connection/17f2f5a8-9483-4164-a6ac-ada8c55c55ef
+    codebuild_role_arn: arn:aws:iam::533267147140:role/service-role/CodeBuildRoleV1
+    codepipeline_role_arn: arn:aws:iam::533267147140:role/CodePipelineRoleV1
+    admin_roles:
+      - arn:aws:iam::533267147140:role/adeyinka.odebade.ext@bbc.co.uk
+      - arn:aws:iam::533267147140:role/alvin.law@bbc.co.uk

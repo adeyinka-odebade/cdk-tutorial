@@ -1,0 +1,9 @@
+{
+    "Resources": {
+        "cdk-test-bucket-S3B4E9YC": {
+            "Type": "AWS::S3::Bucket",
+            "Properties": {
+            }
+        }
+    }
+}
